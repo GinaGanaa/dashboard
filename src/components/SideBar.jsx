@@ -44,77 +44,77 @@ export const SideBar = () => {
     {
       name: "Products",
       href: "/products",
-      img: <ProductIcon isActive={selectedMenu == "Products"} />,
+      img: "./sideBar/producticon.svg",
     },
     {
       name: "Favorites",
       href: "/favorites",
-      img: <FavoritesIcon isActive={selectedMenu == "Favorites"} />,
+      img: "./sideBar/favoritesicon.svg",
     },
     {
       name: "Inbox",
       href: "/inbox",
-      img: <InboxIcon isActive={selectedMenu == "Inbox"} />,
+      img: "./sideBar/inboxicon.svg",
     },
     {
       name: "Order Lists",
       href: "/orders",
-      img: <OrdersIcon isActive={selectedMenu == "Order Lists"} />,
+      img: "./sideBar/ordersicon.svg",
     },
     {
       name: "Product Stock",
       href: "/stocks",
-      img: <StockIcon isActive={selectedMenu == "Product Stock"} />,
+      img: "./sideBar/stockicon.svg",
     },
     {
       name: "Pricing",
       href: "/pricing",
-      img: <Pricing isActive={selectedMenu == "Pricing"} />,
+      img: "./sideBar/pricingicon.svg",
     },
     {
       name: "Calendar",
       href: "/calendar",
-      img: <Calendar isActive={selectedMenu == "Calendar"} />,
+      img: "./sideBar/calendar.svg",
     },
     {
       name: "To-Do",
       href: "/to-do",
-      img: <Todo isActive={selectedMenu == "To-Do"} />,
+      img: "./sideBar/todoicon.svg",
     },
     {
       name: "Contact",
       href: "contact",
-      img: <Contact isActive={selectedMenu == "Contact"} />,
+      img: "./sideBar/contacticon.svg",
     },
     {
       name: "Invoice",
       href: "/invoice",
-      img: <Invoice isActive={selectedMenu == "Invoice"} />,
+      img: "./sideBar/invoiceicon.svg",
     },
     {
       name: "Ui Elements",
       href: "/element",
-      img: <Elements isActive={selectedMenu == "Ui Elements"} />,
+      img: "./sideBar/elementicon.svg",
     },
     {
       name: "Team",
       href: "/team",
-      img: <Team isActive={selectedMenu == "Team"} />,
+      img: "./sideBar/teamicon.svg",
     },
     {
       name: "Table",
       href: "/table",
-      img: <Table isActive={selectedMenu == "Table"} />,
+      img: "./sideBar/tableicon.svg",
     },
     {
       name: "Settings",
       href: "/setting",
-      img: <Settings isActive={selectedMenu == "Settings"} />,
+      img: "./sideBar/settingsicon.svg",
     },
     {
       name: "Logout",
       href: "/logout",
-      img: <Logout isActive={selectedMenu == "Logout"} />,
+      img: "./sideBar/logouticon.svg",
     },
   ];
 
