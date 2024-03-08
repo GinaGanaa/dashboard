@@ -135,7 +135,6 @@ export const SideBar = () => {
           ))}
         </ul>
       </div>
-      <div className="w-[240px] h-[1px] bg-[#E0E0E0]">Pages</div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "search-icon": "url('/searchIcon.svg')",
+        "search-icon": "url('/dashboard/searchIcon.svg')",
       },
     },
   },

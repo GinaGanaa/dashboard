@@ -15,14 +15,14 @@ export const NavBar = () => {
       </div>
       <div className="w-[405px] flex items-center justify-between pr-[31px]">
         <BellIcon />
-        <img src="./flag.png" alt="" />
+        <img className="rounded-[15%]" src="./dashboard/flag.png" alt="" />
 
         <select name="" id="">
           <option value="">English</option>
           <option value=""></option>
           <option value=""></option>
         </select>
-        <img className="rounded-[50%]" src="./profile.png" alt="" />
+        <img className="rounded-[50%]" src="./dashboard/profile.png" alt="" />
         <div>
           <p>Moni Roy</p>
           <p>Admin</p>

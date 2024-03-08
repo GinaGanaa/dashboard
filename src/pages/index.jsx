@@ -63,9 +63,8 @@ export default function Home() {
       </div>
       <div className="bg-white w-full h-[444px] rounded-[14px]">
         <p className="text-[24px] p-[32px]"> Sales Details</p>
-        <img src="./sideBar/dashboardicon.svg" alt="" />
       </div>
-      <div className="bg-white w-full h-[420px] rounded-[14px] p-[32px]">
+      {/* <div className="bg-white w-full h-[420px] rounded-[14px] p-[32px]">
         <div className="flex justify-between">
           <p className="text-[24px] "> Deals Details</p>
           <select
@@ -113,6 +112,33 @@ export default function Home() {
             </li>
           ))}
         </div>
+      </div> */}
+      <div className="bg-white w-full h-[420px] rounded-[14px] p-[32px]">
+        <table className="w-full text-left">
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Location</th>
+              <th>Date-Time</th>
+              <th>Piece</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {dealsDetails.map((perDetail) => (
+              <tr className="flex h-[80px] items-center justify-between pl-[24px] pr-[60px] gap-[16px]">
+                <td className="w-[36px]">{perDetail.img}</td>
+                <td> {perDetail.name}</td>
+                <td> {perDetail.location}</td>
+                <td> {perDetail.date}</td>
+                <td> {perDetail.piece}</td>
+                <td> {perDetail.amount}</td>
+                <td> {perDetail.status}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
