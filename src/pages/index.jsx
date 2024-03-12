@@ -6,7 +6,7 @@ import { totalDetails } from "@/utils/constants";
 export default function Home() {
   const dealsDetails = [
     {
-      img: <img src="./watch.png" alt="" />,
+      img: <img src="./dashboard/watch.png" alt="" />,
       name: "Apple watch",
       location: "6096 Marjolaine Landing",
       date: "12.09.2019 - 12.53PM",
@@ -22,7 +22,7 @@ export default function Home() {
         />
       ),
       name: "Macbook",
-      location: "6096 Marjolaine Landing",
+      location: "8369 Dulles intl",
       date: "11.23.2021 - 12.53PM",
       piece: "233",
       amount: "$67,295",
@@ -36,10 +36,10 @@ export default function Home() {
         />
       ),
       name: "Airpod",
-      location: "6096 Marjolaine Landing",
+      location: "578 Arlington blvd",
       date: "12.09.2019 - 12.53PM",
-      piece: "423",
-      amount: "$34,295",
+      piece: "383",
+      amount: "$24,025",
       status: "delivered",
     },
   ];
@@ -113,10 +113,32 @@ export default function Home() {
           ))}
         </div>
       </div> */}
-      <div className="bg-white w-full h-[420px] rounded-[14px] p-[32px]">
-        <table className="w-full text-left">
+      <div className="bg-white w-full h-[420px]  p-[32px] rounded-[14px]">
+        <div className="flex justify-between pb-[32px]">
+          <p className="text-[24px] "> Deals Details</p>
+          <select
+            className="border-[#D5D5D5] border-[0.6px] text-[12px] w-[104px] h-[28px] text-[#2B3034] rounded-[4px] pl-[17px] "
+            name=""
+            id=""
+          >
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+          </select>
+        </div>
+        <table className="w-full text-left ">
           <thead>
-            <tr>
+            <tr className="h-[48px] bg-[#F1F4F9] ">
+              <th></th>
               <th>Product Name</th>
               <th>Location</th>
               <th>Date-Time</th>
@@ -127,9 +149,9 @@ export default function Home() {
           </thead>
           <tbody>
             {dealsDetails.map((perDetail) => (
-              <tr className="flex h-[80px] items-center justify-between pl-[24px] pr-[60px] gap-[16px]">
-                <td className="w-[36px]">{perDetail.img}</td>
-                <td> {perDetail.name}</td>
+              <tr className=" h-[80px] ">
+                <td className="w-[36px] ">{perDetail.img}</td>
+                <td>{perDetail.name}</td>
                 <td> {perDetail.location}</td>
                 <td> {perDetail.date}</td>
                 <td> {perDetail.piece}</td>
