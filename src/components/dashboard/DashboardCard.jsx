@@ -9,7 +9,7 @@ export const DashboardCard = ({
   since,
 }) => {
   return (
-    <li className=" bg-white w-[262px] h-[161px] rounded-[14px] p-[16px]">
+    <li className=" bg-white w-[262px] rounded-[14px] p-[16px] h-fit">
       <div className="flex justify-between">
         <div>
           <div>
@@ -27,7 +27,7 @@ export const DashboardCard = ({
         <div>{upDown == "up" ? <UpIcon /> : <DownIcon />}</div>
         <div className="flex">
           <p> {percent}</p>
-          <p>{since}</p>
+          <p className="">{since}</p>
         </div>
       </div>
     </li>

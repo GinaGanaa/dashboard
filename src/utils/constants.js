@@ -32,3 +32,43 @@ export const totalDetails = [
     since: "Up from yesterday",
   },
 ];
+
+export const dealsDetails = [
+  {
+    img: <img src="./dashboard/watch.png" alt="" />,
+    name: "Apple watch",
+    location: "6096 Marjolaine Landing",
+    date: "12.09.2019 - 12.53PM",
+    piece: "423",
+    amount: "$34,295",
+    status: "delivered",
+  },
+  {
+    img: (
+      <img
+        src="https://www.pngitem.com/pimgs/m/78-780701_macbook-pro-png-transparent-png.png"
+        alt=""
+      />
+    ),
+    name: "Macbook",
+    location: "8369 Dulles intl",
+    date: "11.23.2021 - 12.53PM",
+    piece: "233",
+    amount: "$67,295",
+    status: "delivered",
+  },
+  {
+    img: (
+      <img
+        src="https://www.apple.com/newsroom/images/live-action/wwdc-2023/standard/airpods/Apple-AirPods-Pro-2nd-gen-hero-230605.jpg.news_app_ed.jpg"
+        alt=""
+      />
+    ),
+    name: "Airpod",
+    location: "578 Arlington blvd",
+    date: "12.09.2019 - 12.53PM",
+    piece: "383",
+    amount: "$24,025",
+    status: "delivered",
+  },
+];
