@@ -5,7 +5,7 @@ export const SideBarButton = ({ selectedMenu, item, setSelectedMenu }) => {
   console.log(item);
   return (
     <li
-      style={{ background: selectedMenu == item.name ? "blue" : "white" }}
+      style={{ background: selectedMenu == item.name ? "#4880FF" : "white" }}
       onClick={() => setSelectedMenu(item.name)}
       className="pointer flex bg-blue-600 h-[50px] w-[180px] rounded-md items-center gap-4 pl-5  "
     >

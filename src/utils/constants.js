@@ -1,39 +1,39 @@
-export const totalDetails = [
+export const cardInfos = [
   {
-    header: "Total User",
+    title: "Total User",
     numbers: "40,689",
-    img: "./dashboard/usericon.png",
+    imgUrl: "./dashboard/usericon.png",
     upDown: "up",
     percent: "8.5%",
     since: "Up from yesterday",
   },
   {
-    header: "Total Order",
+    title: "Total Order",
     numbers: "10293",
-    img: "./dashboard/orderIcon.png",
+    imgUrl: "./dashboard/orderIcon.png",
     upDown: "up",
     percent: "1.3%",
     since: "Up from past week",
   },
   {
-    header: "Total Sales",
+    title: "Total Sales",
     numbers: "$89,000",
-    img: "./dashboard/salesIcon.png",
+    imgUrl: "./dashboard/salesIcon.png",
     upDown: "down",
     percent: "4.3%",
     since: "Down from yesterday",
   },
   {
-    header: "Total Pending",
+    title: "Total Pending",
     numbers: "2040",
-    img: "./dashboard/pendingIcon.png",
+    imgUrl: "./dashboard/pendingIcon.png",
     upDown: "up",
     percent: "1.8%",
     since: "Up from yesterday",
   },
 ];
 
-export const dealsDetails = [
+export const dealOrders = [
   {
     img: <img src="./dashboard/watch.png" alt="" />,
     name: "Apple watch",
@@ -70,5 +70,93 @@ export const dealsDetails = [
     piece: "383",
     amount: "$24,025",
     status: "delivered",
+  },
+];
+
+export const months = ["January", "February", "Martch"];
+
+export const topSideMenus = [
+  {
+    name: "Dashboard",
+    href: "/",
+    img: "./sideBar/dashboardicon.svg",
+  },
+  {
+    name: "Products",
+    href: "/products",
+    img: "./sideBar/producticon.svg",
+  },
+  {
+    name: "Favorites",
+    href: "/favorites",
+    img: "./sideBar/favoritesicon.svg",
+  },
+  {
+    name: "Inbox",
+    href: "/inbox",
+    img: "./sideBar/inboxicon.svg",
+  },
+  {
+    name: "Order Lists",
+    href: "/orders",
+    img: "./sideBar/ordersicon.svg",
+  },
+  {
+    name: "Product Stock",
+    href: "/stocks",
+    img: "./sideBar/stockicon.svg",
+  },
+];
+
+export const midSideMenus = [
+  {
+    name: "Pricing",
+    href: "/pricing",
+    img: "./sideBar/pricingicon.svg",
+  },
+  {
+    name: "Calendar",
+    href: "/calendar",
+    img: "./sideBar/calendar.svg",
+  },
+  {
+    name: "To-Do",
+    href: "/to-do",
+    img: "./sideBar/todoicon.svg",
+  },
+  {
+    name: "Contact",
+    href: "contact",
+    img: "./sideBar/contacticon.svg",
+  },
+  {
+    name: "Invoice",
+    href: "/invoice",
+    img: "./sideBar/invoiceicon.svg",
+  },
+  {
+    name: "Ui Elements",
+    href: "/element",
+    img: "./sideBar/elementicon.svg",
+  },
+  {
+    name: "Team",
+    href: "/team",
+    img: "./sideBar/teamicon.svg",
+  },
+  {
+    name: "Table",
+    href: "/table",
+    img: "./sideBar/tableicon.svg",
+  },
+  {
+    name: "Settings",
+    href: "/setting",
+    img: "./sideBar/settingsicon.svg",
+  },
+  {
+    name: "Logout",
+    href: "/logout",
+    img: "./sideBar/logouticon.svg",
   },
 ];
