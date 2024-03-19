@@ -14,7 +14,7 @@ export default function Home() {
           ))}
         </ul>
       </div>
-      <SalesDetails />
+      {/* <SalesDetails /> */}
       <DealsOrders months={months} dealOrders={dealOrders} />
     </div>
   );
