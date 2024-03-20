@@ -150,3 +150,19 @@ export const midSideMenus = [
     img: "./sideBar/logouticon.svg",
   },
 ];
+export const favorites = [
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Apple Watch Series 4",
+    price: "$120.00",
+    heart: "./favorites/coloredHeart.svg",
+    button: "Edit Product",
+  },
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Air-Max-270",
+    price: "$60.00",
+    heart: "./heartIcon.svg",
+    button: "Edit Product",
+  },
+];
