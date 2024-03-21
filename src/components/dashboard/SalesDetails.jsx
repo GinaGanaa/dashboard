@@ -1,22 +1,72 @@
-// import React, { useEffect } from "react";
-// import { LineChart } from "@mui/x-charts/LineChart";
+import React from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Line } from "react-chartjs-2";
 
-// export const SalesDetails = () => {
-//   useEffect(() => {}, []);
+import { faker } from "@faker-js/faker";
 
-//   return (
-//     <div className="bg-white w-full h-[444px] rounded-[14px]">
-//       <p className="text-[24px] p-[32px]"> Sales Details</p>
-//       <LineChart
-//         xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
-//         series={[
-//           {
-//             data: [2, 5.5, 2, 8.5, 1.5, 5],
-//           },
-//         ]}
-//         width={500}
-//         height={300}
-//       />
-//     </div>
-//   );
-// };
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Tooltip
+);
+
+export const options = {
+  responsive: true,
+  plugins: {
+    legend: {
+      display: false,
+    },
+    customCanvasBackgroundColor: {
+      color: "lightGreen",
+    },
+  },
+};
+
+const labels = [
+  "5k",
+  "10k",
+  "15k",
+  "20k",
+  "25k",
+  "30k",
+  "35k",
+  "40k",
+  "45k",
+  "50k",
+  "55k",
+  "60k",
+];
+
+export const data = {
+  labels,
+  datasets: [
+    {
+      label: "Dataset 2",
+      data: labels.map(() => faker.number.int({ min: 0, max: 100 })),
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      shadow: "10px 10px 5px red",
+    },
+  ],
+};
+
+export function SalesDetails() {
+  return (
+    <div>
+      <div className="w-[80%] h-[600px] bg-slate-400">
+        <Line options={options} data={data} />
+      </div>
+    </div>
+  );
+}

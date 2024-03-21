@@ -4,10 +4,20 @@ import { Star } from "./Star";
 export const WatchSeries = () => {
   return (
     <div className="bg-white rounded-[14px]">
-      <div>
-        <div className="flex absolute p-[14px]">
-          <img src="./products/leftArrow.svg" alt="" />
-          <img src="./products/rightArrow.svg" alt="" />
+      <div className="relative">
+        <div className="flex absolute p-[14px] w-full justify-between h-full">
+          <img
+            className="cursor-pointer"
+            src="./products/leftArrow.svg"
+            alt=""
+            width={41}
+          />
+          <img
+            className="cursor-pointer"
+            src="./products/rightArrow.svg"
+            alt=""
+            width={41}
+          />
         </div>
         <img className="rounded-[14px]" src="./products/appleWatch.png" />
       </div>

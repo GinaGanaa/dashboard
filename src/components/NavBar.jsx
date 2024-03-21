@@ -1,6 +1,12 @@
+import { useState } from "react";
 import { NavBarIcon, ChevronIcon, BellIcon } from "./icons";
 
 export const NavBar = () => {
+  const [showDropDown, setShowDropDown] = useState(false);
+  const toggleDropDown = () => {
+    console.log("Toggle is running ");
+    setShowDropDown(!showDropDown);
+  };
   return (
     <div className="bg-white flex h-[70px] items-center justify-between w-full ">
       <div className="w-[366px] flex gap-[25px] items-center pl-[31px]">
@@ -27,7 +33,14 @@ export const NavBar = () => {
           <p>Moni Roy</p>
           <p>Admin</p>
         </div>
-        <ChevronIcon />
+        <div onClick={toggleDropDown} className="relative">
+          <ChevronIcon />
+          {showDropDown && (
+            <div className="absolute top-5 cursor-pointer z-1000 rounded right-0 w-[100px] h-[200px] bg-red-900">
+              <p className="text-white">Hello</p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

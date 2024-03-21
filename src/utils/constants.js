@@ -1,3 +1,5 @@
+import { faker } from "@faker-js/faker";
+
 export const cardInfos = [
   {
     title: "Total User",
@@ -154,15 +156,43 @@ export const favorites = [
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Apple Watch Series 4",
-    price: "$120.00",
-    heart: "./favorites/coloredHeart.svg",
-    button: "Edit Product",
+    price: 120,
+    rating: 4,
+    isFavorated: true,
   },
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Air-Max-270",
     price: "$60.00",
-    heart: "./heartIcon.svg",
-    button: "Edit Product",
+    rating: 3,
+    isFavorated: false,
+  },
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Minimal Chair Tool",
+    price: "$24.59",
+    rating: 4,
+    isFavorated: false,
+  },
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Amazfit Vip",
+    price: "$60.00",
+    rating: 2,
+    isFavorated: false,
+  },
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Gumbo Mouse",
+    price: "$60.00",
+    rating: 2,
+    isFavorated: false,
+  },
+  {
+    imgUrl: "./favorites/whiteWatch.png",
+    productName: "Camera Tripod",
+    price: "$60.00",
+    rating: 5,
+    isFavorated: false,
   },
 ];
