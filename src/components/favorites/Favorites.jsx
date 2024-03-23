@@ -4,15 +4,19 @@ import { Star } from "../products/Star";
 export const Favorites = ({ card }) => {
   const { productName, price, imgUrl, rating, isFavorated } = card;
   return (
-    <div className="w-[331px] h-[497px] bg-white rounded-[14px]">
-      <div>
+    <div className="w-[361px] h-[497px] bg-white rounded-[14px]">
+      <div className="relative">
+        <div className="flex absolute w-full h-full justify-between p-[14px]">
+          <img src="./products/leftArrow.svg" width={41} />
+          <img src="./products/rightArrow.svg" width={41} />
+        </div>
         <img className="rounded-[14px]" src={imgUrl} />
       </div>
       <div className="p-[24px]">
         <div className="flex justify-between">
           <div>
             <p className="text-[18px]"> {productName}</p>
-            <p className="text-[#4880FF] pb-[10px] pt-[8px]"> {price}</p>
+            <p className="text-[#4880FF] pb-[10px] pt-[8px]"> ${price}</p>
           </div>
           {isFavorated ? (
             <img src={"/favorites/coloredHeart.svg"} />
@@ -26,7 +30,7 @@ export const Favorites = ({ card }) => {
           })}
         </div>
         <button className="text-[14px] w-[126px] h-[38px] bg-[#E2EAF8] rounded-[12px]">
-          Edit
+          Edit Product
         </button>
       </div>
     </div>

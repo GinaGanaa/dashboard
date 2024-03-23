@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export const SideBarButton = ({ selectedMenu, item, setSelectedMenu }) => {
   console.log(item);

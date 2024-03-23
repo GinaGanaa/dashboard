@@ -163,36 +163,73 @@ export const favorites = [
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Air-Max-270",
-    price: "$60.00",
+    price: 60,
     rating: 3,
     isFavorated: false,
   },
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Minimal Chair Tool",
-    price: "$24.59",
+    price: 24.59,
     rating: 4,
     isFavorated: false,
   },
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Amazfit Vip",
-    price: "$60.00",
+    price: 70.35,
     rating: 2,
     isFavorated: false,
   },
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Gumbo Mouse",
-    price: "$60.00",
+    price: 33.43,
     rating: 2,
     isFavorated: false,
   },
   {
     imgUrl: "./favorites/whiteWatch.png",
     productName: "Camera Tripod",
-    price: "$60.00",
+    price: 50,
     rating: 5,
     isFavorated: false,
+  },
+];
+export const InboxSideMenus = [
+  {
+    name: "Inbox",
+    href: "/",
+    img: "./sideBar/dashboardicon.svg",
+  },
+  {
+    name: "Starred",
+    href: "/starred",
+    img: "./sideBar/producticon.svg",
+  },
+  {
+    name: "Sent",
+    href: "/sent",
+    img: "./sideBar/favoritesicon.svg",
+  },
+  {
+    name: "Draft",
+    href: "/draft",
+    img: "./sideBar/inboxicon.svg",
+  },
+  {
+    name: "Spam",
+    href: "/spam",
+    img: "./sideBar/ordersicon.svg",
+  },
+  {
+    name: "Important",
+    href: "/important",
+    img: "./sideBar/stockicon.svg",
+  },
+  {
+    name: "Bin",
+    href: "/bin",
+    img: "./sideBar/stockicon.svg",
   },
 ];

@@ -64,7 +64,8 @@ export const data = {
 export function SalesDetails() {
   return (
     <div>
-      <div className="w-[80%] h-[600px] bg-slate-400">
+      <div className="w-[80%] h-[444px] bg-white p-[35px] rounded-[12px] ">
+        <h2 className="text-[24px] font-medium pb-[30px]">Sales Details</h2>
         <Line options={options} data={data} />
       </div>
     </div>
