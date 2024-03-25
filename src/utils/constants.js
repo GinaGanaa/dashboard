@@ -196,40 +196,65 @@ export const favorites = [
     isFavorated: false,
   },
 ];
-export const InboxSideMenus = [
+export const inboxSideMenus = [
   {
     name: "Inbox",
     href: "/",
-    img: "./sideBar/dashboardicon.svg",
+    img: "./inbox/inboxIcon.svg",
+    mail: "1253",
   },
   {
     name: "Starred",
     href: "/starred",
-    img: "./sideBar/producticon.svg",
+    img: "./inbox/starredIcon.svg",
+    mail: "245",
   },
   {
     name: "Sent",
     href: "/sent",
-    img: "./sideBar/favoritesicon.svg",
+    img: "./inbox/sentIcon.svg",
+    mail: "24,532",
   },
   {
     name: "Draft",
     href: "/draft",
-    img: "./sideBar/inboxicon.svg",
+    img: "./inbox/draftIcon.svg",
+    mail: "09",
   },
   {
     name: "Spam",
     href: "/spam",
-    img: "./sideBar/ordersicon.svg",
+    img: "./inbox/spamIcon.svg",
+    mail: "14",
   },
   {
     name: "Important",
     href: "/important",
-    img: "./sideBar/stockicon.svg",
+    img: "./inbox/important.svg",
+    mail: "18",
   },
   {
     name: "Bin",
     href: "/bin",
-    img: "./sideBar/stockicon.svg",
+    img: "./inbox/binIcon.svg",
+    mail: "9",
+  },
+];
+export const label = [
+  {
+    name: "Primary",
+    icon: "./inbox/primaryIcon.svg",
+  },
+  {
+    name: "Social",
+    icon: "./inbox/primaryIcon.svg",
+  },
+  {
+    name: "Work",
+    icon: "./inbox/primaryIcon.svg",
+  },
+  {
+    name: "Friends",
+    icon: "./inbox/primaryIcon.svg",
   },
 ];
