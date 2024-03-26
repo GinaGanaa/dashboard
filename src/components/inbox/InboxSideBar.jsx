@@ -19,9 +19,9 @@ export const InboxSideBar = () => {
         />
       ))}
       <p className="font-medium pt-[24px] pb-[16px]">Label</p>
-      {label.map((label) => (
+      {/* {label.map((label) => (
         <InboxBarButton label={label} />
-      ))}
+      ))} */}
     </div>
   );
 };
