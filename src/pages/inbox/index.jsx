@@ -9,7 +9,7 @@ export default function Page() {
           <div className="w-full h-[840px] bg-white rounded-[14px]">
             <div className="p-[24px]">
               <input
-                className=" rounded-[20px] pl-[45px] bg-[#F5F6FA] w-[50%] h-[40px] text-[14px] bg-[center_left_1rem] focus:outline-none bg-search-icon bg-no-repeat"
+                className=" rounded-[20px] pl-[45px] bg-[#F5F6FA] min-w-[100px] h-[40px] text-[14px] bg-[center_left_1rem] focus:outline-none bg-search-icon bg-no-repeat"
                 type="text"
                 placeholder="Search mail"
               />
