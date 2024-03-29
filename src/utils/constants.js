@@ -199,44 +199,44 @@ export const favorites = [
 export const inboxSideMenus = [
   {
     name: "Inbox",
-    href: "/",
-    img: "./inbox/inboxIcon.svg",
+    href: "/inbox",
+    img: "/inbox/inboxIcon.svg",
     mail: "1253",
   },
   {
     name: "Starred",
-    href: "/starred",
-    img: "./inbox/starredIcon.svg",
+    href: "/inbox/starred",
+    img: "/inbox/starredIcon.svg",
     mail: "245",
   },
   {
     name: "Sent",
     href: "/sent",
-    img: "./inbox/sentIcon.svg",
+    img: "/inbox/sentIcon.svg",
     mail: "24,532",
   },
   {
     name: "Draft",
     href: "/draft",
-    img: "./inbox/draftIcon.svg",
+    img: "/inbox/draftIcon.svg",
     mail: "09",
   },
   {
     name: "Spam",
     href: "/spam",
-    img: "./inbox/spamIcon.svg",
+    img: "/inbox/spamIcon.svg",
     mail: "14",
   },
   {
     name: "Important",
     href: "/important",
-    img: "./inbox/important.svg",
+    img: "/inbox/important.svg",
     mail: "18",
   },
   {
     name: "Bin",
     href: "/bin",
-    img: "./inbox/binIcon.svg",
+    img: "/inbox/binIcon.svg",
     mail: "9",
   },
 ];
@@ -256,5 +256,23 @@ export const label = [
   {
     name: "Friends",
     icon: "./inbox/primaryIcon.svg",
+  },
+];
+export const orders = [
+  {
+    id: "00001",
+    name: "Christine Brooks",
+    address: "089 Kutch Green Apt. 448",
+    date: "04 Sep 2019",
+    type: "Electric",
+    status: "Completed",
+  },
+  {
+    id: "00002",
+    name: "Rosie Pearson",
+    address: "979 Immanuel Ferry Suite 526",
+    date: "28 May 2019",
+    type: "Book",
+    status: "Processing",
   },
 ];

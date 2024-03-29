@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export const SideBarButton = ({ selectedMenu, item, setSelectedMenu }) => {
-  console.log(item);
   return (
     <li
       style={{ background: selectedMenu == item.name ? "#4880FF" : "white" }}

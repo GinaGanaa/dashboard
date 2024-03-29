@@ -4,7 +4,6 @@ import { NavBarIcon, ChevronIcon, BellIcon } from "./icons";
 export const NavBar = () => {
   const [showDropDown, setShowDropDown] = useState(false);
   const toggleDropDown = () => {
-    console.log("Toggle is running ");
     setShowDropDown(!showDropDown);
   };
   return (
