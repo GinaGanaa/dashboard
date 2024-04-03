@@ -26,6 +26,27 @@ export const InboxSideBar = () => {
         );
       })}
       <p className="font-medium pt-[24px] pb-[16px]">Label</p>
+      <div className="pl-[16px]">
+        <div className="flex gap-[13px] pb-[24px]">
+          <img src="/inbox/primaryIcon.svg" alt="" />
+          <p>Primary</p>
+        </div>
+        <div className="flex gap-[13px] pb-[24px]">
+          <img src="/inbox/socialIcon.svg" alt="" />
+          <p>Social</p>
+        </div>
+        <div className="flex gap-[13px] pb-[24px]">
+          <img src="/inbox/workIcon.svg" alt="" />
+          <p>Work</p>
+        </div>
+        <div className="flex gap-[13px] pb-[31px]">
+          <img src="/inbox/friendsIcon.svg" alt="" />
+          <p>Friends</p>
+        </div>
+        <button className="text-[#202224] text-opacity-[0.5]">
+          + Create New Label
+        </button>
+      </div>
       {/* {label.map((label) => (
         <InboxBarButton label={label} />
       ))} */}
