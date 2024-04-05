@@ -276,3 +276,13 @@ export const orders = [
     status: "Processing",
   },
 ];
+export const stocks = [
+  {
+    img: "",
+    productName: "Apple watch series 4",
+    category: "Digital Product",
+    price: 690,
+    piece: 63,
+    color: "black gray pink",
+  },
+];
