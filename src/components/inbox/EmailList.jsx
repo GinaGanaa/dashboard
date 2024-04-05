@@ -1,5 +1,8 @@
+import { emails } from "@/utils/inbox/email";
+
 export const EmailList = (props) => {
   const { sender, label, title, date, isStared, isSelected, email } = props;
+  console.log("email.label is running", email.label);
   return (
     <tr className="h-[61px]">
       <td>
@@ -16,11 +19,16 @@ export const EmailList = (props) => {
         {sender}
       </td>
       <td className="text-[12px]">
-        <p style={{ color: label == email.label ? "#00B69B" : "" }}></p>
-        {label}
+        <p
+          style={{
+            color: label == "Primary" ? "#00B69B" : "",
+          }}
+        >
+          {label}
+        </p>
       </td>
       <td className="text-[14px]">{title}</td>
-      <td className="text-[14px]">{date}</td>
+      <td className="text-[14px] text-end">{date}</td>
     </tr>
   );
 };

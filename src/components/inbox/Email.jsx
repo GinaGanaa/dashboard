@@ -3,7 +3,7 @@ import { EmailList } from "./EmailList";
 
 export const Email = () => {
   return (
-    <table>
+    <table className="w-full">
       <tbody>
         {emails.map((email) => {
           return (
