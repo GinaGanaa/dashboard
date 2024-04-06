@@ -286,3 +286,47 @@ export const stocks = [
     color: "black gray pink",
   },
 ];
+export const todoList = [
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Meeting with CEO",
+    starred: false,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Pick up kids from school",
+    starred: true,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Shopping with brother",
+    starred: false,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Review with HR",
+    starred: false,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Going to Dia's School",
+    starred: false,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Check design files",
+    starred: true,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+  {
+    checkBox: "/inbox/checkBox.svg",
+    todo: "Update File",
+    starred: false,
+    deleteTodo: "/todo/deleteTodo.svg",
+  },
+];
