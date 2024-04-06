@@ -26,7 +26,7 @@ export default function Page() {
                   )}
                   <button>
                     <img
-                      className="w-[30px]"
+                      className="w-[29px]"
                       src="/todo/deleteTodo.svg"
                       alt=""
                     />
