@@ -35,8 +35,21 @@ export const NavBar = () => {
         <div onClick={toggleDropDown} className="relative">
           <ChevronIcon />
           {showDropDown && (
-            <div className="absolute top-5 cursor-pointer z-1000 rounded right-0 w-[100px] h-[200px] bg-red-900">
-              <p className="text-white">Hello</p>
+            <div className="absolute cursor-pointer rounded right-0 w-[200px] h-[170px] bg-[#4880FF] flex flex-col items-center gap-[30px] pt-[15px]">
+              <img
+                className="rounded-[50%] w-[70px] bg-white"
+                src="/dashboard/profile.png"
+                alt=""
+              />
+
+              <div className="flex gap-[50px] text-[14px] bg-white w-[200px] h-[60px] items-center justify-center">
+                <button className="rounded-[5px] w-[60px] bg-[#F5F6FA] h-[35px]">
+                  Profile
+                </button>
+                <button className="bg-[#F5F6FA] rounded-[5px] w-[70px] h-[35px]">
+                  Sign out
+                </button>
+              </div>
             </div>
           )}
         </div>
