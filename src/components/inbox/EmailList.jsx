@@ -1,4 +1,4 @@
-import { emails } from "@/utils/inbox/email";
+import { emailType, emails } from "@/utils/inbox/email";
 
 export const EmailList = (props) => {
   const { sender, label, title, date, isStared, isSelected, email } = props;
@@ -21,7 +21,7 @@ export const EmailList = (props) => {
       <td className="text-[12px]">
         <p
           style={{
-            color: label == "Primary" ? "#00B69B" : "",
+            color: emailType[label],
           }}
         >
           {label}

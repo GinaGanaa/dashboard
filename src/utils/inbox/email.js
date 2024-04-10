@@ -96,3 +96,12 @@ export const emails = [
     isSelected: false,
   },
 ];
+
+export const emailType = {
+  Primary: "green",
+  Work: "blue",
+  Friends: "yellow",
+  Social: "aqua",
+};
+
+emailType["primary"];
