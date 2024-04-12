@@ -15,7 +15,7 @@ export const EmailList = (props) => {
           <img src={"/inbox/whiteStar.svg"} />
         )}
       </td>
-      <td className="text-[#202224] text-[14px] font-medium pl-[30px]">
+      <td className="text-[#1d1f21] text-[14px] font-medium pl-[30px]">
         {sender}
       </td>
       <td className="text-[12px]">
