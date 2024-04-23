@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const InboxBarButton = ({ item, selectedMenu, isActive }) => {
+export const InboxBarButton = ({ item, isActive }) => {
   console.log(isActive);
   console.log(item.href);
   return (
