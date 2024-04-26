@@ -15,7 +15,6 @@ export const InboxSideBar = () => {
       </button>
       <p className="font-medium pt-[24px] pb-[16px]">My Email</p>
       {inboxSideMenus.map((item) => {
-        // console.log("route: ", route);
         return (
           <InboxBarButton
             item={item}
