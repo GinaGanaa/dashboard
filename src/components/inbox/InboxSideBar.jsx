@@ -45,9 +45,6 @@ export const InboxSideBar = () => {
           + Create New Label
         </button>
       </div>
-      {/* {label.map((label) => (
-        <InboxBarButton label={label} />
-      ))} */}
     </div>
   );
 };
