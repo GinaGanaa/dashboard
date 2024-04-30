@@ -1,7 +1,6 @@
 import { inboxSideMenus } from "@/utils/constants";
 import { InboxBarButton } from "./InboxBarButton";
 import { useState } from "react";
-import { label } from "@/utils/constants";
 import { useRouter } from "next/router";
 
 export const InboxSideBar = () => {
