@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Hello calendar</div>;
+  return <div>Calendar</div>;
 }
