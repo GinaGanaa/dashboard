@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-// increase decrease deeree darhaar  toogoo ihesgene bagasgana
+// increase decrease deer darhaar  toogoo ihesgene bagasgana
 const Test = () => {
   const [num, setNum] = useState(0);
   function increment() {
