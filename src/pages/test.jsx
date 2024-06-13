@@ -1,5 +1,3 @@
-// 1 too 2 tovch increase decrease
-
 import { useState } from "react";
 
 // increase decrease deer darhaar toogoo ihesgene bagasgana
