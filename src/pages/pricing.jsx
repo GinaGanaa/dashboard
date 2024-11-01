@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className="p-[32px]">
       <h2 className="text-[32px] pb-[31px] font-medium">Pricing</h2>
-      <div>
+      <div className="flex gap-[40px]">
         {pricing.map((pricing) => (
           <Pricing pricing={pricing} />
         ))}
