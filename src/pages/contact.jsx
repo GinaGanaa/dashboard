@@ -1,3 +1,5 @@
+import { contacts } from "@/utils/contact/contact";
+
 export default function Page() {
   return (
     <div className="p-[30px]">
@@ -7,7 +9,7 @@ export default function Page() {
           Add New Contact
         </button>
       </div>
-      <div></div>
+      {/* <div>{contacts.map((contact, contactIndex))}</div> */}
     </div>
   );
 }
