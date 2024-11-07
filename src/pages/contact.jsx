@@ -9,7 +9,6 @@ export default function Page() {
           Add New Contact
         </button>
       </div>
-      {/* <div>{contacts.map((contact, contactIndex))}</div> */}
     </div>
   );
 }
