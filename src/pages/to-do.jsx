@@ -19,11 +19,15 @@ export default function Page() {
                   <p>{todo.todo}</p>
                 </div>
                 <div className="flex gap-[32px]">
-                  {todo.starred ? (
+                  <button className="cursor-pointer" onClick="starred()">
+                    <img src="/inbox/whiteStar.svg" alt="" />
+                  </button>
+
+                  {/* {todo.starred ? (
                     <img className="w-[26px]" src={"/inbox/yellowStar.svg"} />
                   ) : (
                     <img className="w-[26px]" src={"/inbox/whiteStar.svg"} />
-                  )}
+                  )} */}
                   <button>
                     <img
                       className="w-[30px]"
