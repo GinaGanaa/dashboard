@@ -24,6 +24,7 @@ export default function Page() {
         <p className="p-[24px] text-[24px] font-medium ">Donut Chart</p>
         <div className="flex justify-between pl-[72px]">
           <img src="./elements/greenDonutChart.svg" alt="" />
+          <img src="" alt="" />
         </div>
       </div>
     </div>
