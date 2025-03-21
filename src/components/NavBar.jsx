@@ -24,8 +24,8 @@ export const NavBar = () => {
 
         <select name="" id="">
           <option value="">English</option>
-          <option value=""></option>
-          <option value=""></option>
+          <option value="">Korean</option>
+          <option value="">Chinese</option>
         </select>
         <img className="rounded-[50%]" src="./dashboard/profile.png" alt="" />
         <div>
